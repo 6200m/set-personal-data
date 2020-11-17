@@ -85,9 +85,9 @@ int main(void) {
     }
 
     // Print on screen because we have no other operation for the moment.
-    hexDump(pdLocation, 464);
+    // hexDump(pdLocation, 464);
     // hexDump(pdLocation, 0x53B);
-    // PD_ParseInfoBlock();
+    PD_ParseInfoBlock();
 
 stall:
     while (1) {
